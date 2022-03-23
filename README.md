@@ -17,6 +17,7 @@ A Windows 11 taskbar/start menu recreation for Windows 10. Originally made by VI
 - [x] Make it easier to edit Icons
 - [x] Start on New Settings (WIP)
 - [x] Make taskbar icons show the app if open, but reopen them if closed (not released yet)
+- [ ] Adding fluent theme to right-click and hover
 - [ ] Completed New Settings
 - [ ] Make all open windows appear on taskbar
 - [ ] Make infinite number of icons (current limit is 7, including the start menu)
