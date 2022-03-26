@@ -3,10 +3,10 @@ Update=1000
 
 [Variables]
 @include=#@#WeatherVariables.inc
-Condition=Mostly cloudy
-Temperature=56
-DayOrNight=Day
-Icon=Mostly cloudy
+Condition=Cloudy
+Temperature=55
+DayOrNight=Night
+Icon=Cloudy
 WeatherFinishAction=[!WriteKeyValue Variables Condition "[MeasureCurrentCondition]" "#@#Weather\WeatherParser.inc"][!WriteKeyValue Variables Icon "[MeasureCurrentIcon]" "#@#Weather\WeatherParser.inc"][!WriteKeyValue Variables Temperature "[MeasureCurrentTemperature]" "#@#Weather\WeatherParser.inc"][!WriteKeyValue Variables Icon "[MeasureCurrentIcon]" "#@#Weather\WeatherParser.inc"][!WriteKeyValue Variables DayOrNight "[MeasureDayOrNight]" "#@#Weather\WeatherParser.inc"][!SetVariable Condition "[MeasureCurrentCondition]" "Windows 11 Start Menu\TaskBar"][!SetVariable Temperature "[MeasureCurrentTemperature]" "Windows 11 Start Menu\TaskBar"][!SetVariable Icon "[MeasureCurrentIcon]" "Windows 11 Start Menu\TaskBar"][!SetVariable DayOrNight "[MeasureDayOrNight]" "Windows 11 Start Menu\TaskBar"][!UpdateMeter * "Windows 11 Start Menu\TaskBar"][!Redraw "Windows 11 Start Menu\TaskBar"]
 
 [MeasureSiteWeather]

@@ -1,33 +1,33 @@
 [Variables]
 
-; If you want to add task view, the path is [explorer shell:::{3080F90E-D7AD-11D9-BD98-0000947B0257}]
+; If you want to add task view, the path is "#@#\Applications\TaskView.lnk"
 ; and the image is tabs.png
 
-; If you want to add file explorer, the path is [Shell:::{20D04FE0-3AEA-1069-A2D8-08002B30309D}]
+; If you want to add file explorer, the path is "#@#\Applications\Explorer.lnk"
 ; and the image is file.png
 
 ; You can not change the start menu path.
 
-; To add a custom icon move it to the @Resources > Icons Folder, and put it in there
+; To add a custom icon move it to the @Resources > Icons Folder
 ; PNG is needed.
 ___________________Taskbar___________________
 
 StartMenuIcon=Start Button.png
 
 TaskbarIcon2=file.png
-Path2=[Shell:::{20D04FE0-3AEA-1069-A2D8-08002B30309D}]
+Path2="#@#\Applications\Explorer.lnk"
 
 TaskbarIcon3=Microsoft Edge.png
 Path3=msedge.exe
 
 TaskbarIcon4=Mail.png
-Path4=["#@#\Application\Mail.lnk"]
+Path4="#@#\Applications\Mail.lnk"
 
 TaskbarIcon5=Word.png
-Path5=["#@#\Application\Word.lnk"]
+Path5="#@#\Applications\Word.lnk"
 
 TaskbarIcon6=Excel.png
-Path6=["#@#\Application\Excel.lnk"]
+Path6="#@#\Applications\Excel.lnk"
 
 TaskbarIcon7=PowerPoint.png
-Path7=["#@#\Application\PowerPoint.lnk"]
+Path7="#@#\Applications\PowerPoint.lnk"
