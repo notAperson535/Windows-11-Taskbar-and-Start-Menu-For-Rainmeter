@@ -7,3 +7,5 @@ IfWinNotExist ahk_exe %1%
     run, %1%
 WinWait, ahk_exe %1%
 winactivate, ahk_exe %1%
+
+ExitApp
